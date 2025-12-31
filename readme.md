@@ -8,15 +8,17 @@ Description is not descriptive although I just started with one idea
 
 Mark Zuckerberg says: Ideas improves while working on it
 
+Time to paused this here
+
 ## Features
 
-- Coming soon
+- New Repository with New App name update in description
 
 ## Project Structure
 
 ```
 
-Coming soon
+This repository is depreciated on 31-12-2025
 
 ```
 
@@ -31,7 +33,6 @@ Coming soon
 - **MySQL**
 - **Node Mailer**
 - **Node Cron**
-
 
 ## Contributing
 

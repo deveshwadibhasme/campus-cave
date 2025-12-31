@@ -33,7 +33,6 @@ export const AuthProvider = ({ children }) => {
       setData(response.data.result);
     } catch (error) {
       console.error("Error fetching user data:", error);
-      // Optional: handle logout on auth error (e.g., 401)
       if (error.response?.status === 401) {
         logOut();
       }
@@ -88,7 +87,7 @@ export const AuthProvider = ({ children }) => {
     setIsLogIn(false);
   };
 
-  const value = { data, token, logIn, logOut, isLogIn ,fetchData };
+  const value = { data, token, logIn, logOut, isLogIn };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };

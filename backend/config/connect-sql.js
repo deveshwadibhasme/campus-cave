@@ -8,9 +8,9 @@ const pool = mysql.createPool({
   user: process.env.SQL_USER,
   password: process.env.SQL_PASSWORD,
   database: "student_management_app",
-  ssl: {
-    minVersion: "TLSv1.2"
-  }
+  // ssl: {
+  //   minVersion: "TLSv1.2"
+  // }
 });
 
 

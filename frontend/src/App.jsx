@@ -11,7 +11,7 @@ import axios from "axios";
 import getURL from "./utils/get-url.js";
 
 function App() {
-  const { token, data, isLogIn ,fetchData } = useAuth();
+  const { token, data, isLogIn } = useAuth();
   const navigate = useNavigate();
   const { showToast } = useToaster();
 
@@ -22,9 +22,8 @@ function App() {
     if (data?.role === "alumni") {
       navigate("/alumni");
     }
-    fetchData()
   }, [token]);
-
+  
   return isLogIn ? (
     <AnimatedLogoLayout>
       <section className="grid grid-cols-[0.06fr_1fr] grid-rows-[0fr_1fr] min-h-screen max-w-screen gap-0 pl-8">
