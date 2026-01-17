@@ -12,12 +12,23 @@ This is version 2 of depreciated project `Acadify`
 
 ## Features
 
--
+- Students, teachers, alumni and complete school/college/institutes at one cave.
+- Social Media for respective schools
+- Ai integrate for student to assist in exam preparation.
+- Job Hunting and guidance under assisting of alumni
+- Notification of educational and other Events in city by alumni.
+- Notes,books pdf or physical by passed student.
+- Teacher can give update about homeworks, test and timetable etc.
+- and much more
 
-## Project Structure
+## Role Structure
 
 ```
-
+super admin
+academy
+teachers
+students
+alumni
 
 ```
 
@@ -25,18 +36,13 @@ This is version 2 of depreciated project `Acadify`
 
 - **HTML**
 - **Tailwind CSS**
-- **JS**
+- **JavaScript**
 - **ReactJS**
 - **ExpressJS**
 - **NodeJS**
-- **MySQL**
-- **Node Mailer**
-- **Node Cron**
+- **Mongo DB**
+
 
 ## Contributing
 
-Feel free to fork this repository and contribute!
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+To fork this repository and contribute contact in `deveshwadibhasme.03@gmail.com`
